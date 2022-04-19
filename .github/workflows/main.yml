@@ -13,7 +13,7 @@ jobs:
     - uses: actions/checkout@v1
     - name: Build and deploy the Docker image
       env: 
-        HEROKU_API_KEY: ${{ secrets.HEROKU_API_KEY }}
+        HEROKU_API_KEY: ${{ '3a434adb-85bf-4539-9bdc-518062ce30ca' }}
         APP_NAME: ${{ 'poc-heroku-dotnet' }}
       run: |
         cd ./
